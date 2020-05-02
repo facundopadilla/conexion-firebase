@@ -5,7 +5,7 @@ from firebase import firebase
 # Conexión a la base de datos (si se conecta correctamente no devuelve ninguna información)
 def conexion():
     try:
-        conexion = firebase.FirebaseApplication('https://mitienda-1cc7e.firebaseio.com/', None)
+        conexion = firebase.FirebaseApplication('aqui va tu link de firebase.io', None)
         return conexion
     except:
         print(">>> Error: no se pudo conectar...")
